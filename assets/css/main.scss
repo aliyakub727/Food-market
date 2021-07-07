@@ -1,0 +1,301 @@
+//font
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+//variables
+$biru: #7287ae;
+$hijau: #dfe9c1;
+$oren: #f2ce94;
+$pink: #dec1d3;
+
+//styles
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-image: url(../img/bg.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 100vmax;
+  background-color: $hijau;
+}
+
+//navbar
+.custom-nav {
+  .navbar-brand {
+    img {
+      width: 20px;
+      height: 20px;
+    }
+    span {
+      color: white;
+      font-weight: 400;
+      font-size: 1.4rem;
+      margin-left: 0.5em;
+      margin-top: 0.4px;
+    }
+  }
+  #navbarNav {
+    .navbar-nav {
+      .nav-item {
+        .btn-logout {
+          margin-left: 10px;
+          display: inline-block;
+          color: white;
+          background-color: $oren;
+          border-radius: 4em;
+          border: 0;
+          padding: 0.5em 2em;
+          text-decoration: none;
+          transition: 0.5s ease;
+          &:hover {
+            color: $oren;
+            border: 1px solid $oren;
+            background-color: transparent;
+          }
+        }
+        .nav-link {
+          color: white;
+          font-weight: 700;
+          margin-left: 2em;
+        }
+      }
+    }
+  }
+  @media screen and(max-width: 992px) {
+    margin-top: -1em;
+  }
+}
+
+//custom menu1
+.custom-menu1 {
+  margin-top: 5em;
+  text-align: center;
+  color: white;
+  h1 {
+    font-weight: 700;
+    font-size: 6rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}
+//custom populermenu
+.custom-populermenu {
+  margin-top: 25em;
+  h1 {
+    text-align: center;
+    color: $biru;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+  }
+  .card {
+    margin-bottom: 1em;
+    .card-body {
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+  .btn {
+    margin-top: 4em;
+    display: inline-block;
+    color: white;
+    background-color: $biru;
+    border-radius: 4em;
+    border: 0;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    transition: 0.5s ease;
+    &:hover {
+      color: $biru;
+      border: 1px solid $biru;
+      background-color: transparent;
+    }
+  }
+}
+
+//custom dis
+.custom-dis {
+  background-color: white;
+  margin-top: 5em;
+  .ps1 {
+    .pos1 {
+      background-color: $pink;
+    }
+    .pos2 {
+      margin-top: 8em;
+      h1 {
+        margin-left: 15px;
+        font-weight: 700;
+      }
+      p {
+        margin-left: 15px;
+      }
+      .btn {
+        margin-left: 10px;
+        display: inline-block;
+        color: white;
+        background-color: $biru;
+        border-radius: 4em;
+        border: 0;
+        padding: 0.5em 2em;
+        text-decoration: none;
+        transition: 0.5s ease;
+        &:hover {
+          color: $biru;
+          border: 1px solid $biru;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+  .ps2 {
+    .pos1 {
+      background-color: $oren;
+    }
+    .pos2 {
+      margin-top: 8em;
+      h1 {
+        margin-left: 15px;
+        font-weight: 700;
+      }
+      p {
+        margin-left: 15px;
+      }
+      .btn {
+        margin-left: 10px;
+        display: inline-block;
+        color: white;
+        background-color: $biru;
+        border-radius: 4em;
+        border: 0;
+        padding: 0.5em 2em;
+        text-decoration: none;
+        transition: 0.5s ease;
+        &:hover {
+          color: $biru;
+          border: 1px solid $biru;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+//custom-how
+.custom-how {
+  background-color: $biru;
+  color: white;
+  .row {
+    h1 {
+      text-align: center;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+  .container {
+    .row {
+      .card {
+        border: 0;
+        background-color: $biru;
+        .lingkaran {
+          margin-left: 2.5em;
+          width: 200px;
+          height: 200px;
+          background: white;
+          border-radius: 100%;
+          .card-img-top {
+            width: 200px;
+            height: 200px;
+
+            border: 0;
+          }
+        }
+        .card-body {
+          text-align: center;
+          background-color: $biru;
+          margin-bottom: 4em;
+          h2 {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}
+
+//custom-fre
+.custom-fre {
+  .container {
+    text-align: center;
+    margin-top: -30em;
+    h1 {
+      color: $biru;
+      font-weight: 900;
+      font-size: 6em;
+    }
+    p {
+      font-size: 2em;
+      color: $biru;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+    .btn {
+      margin-left: 10px;
+      display: inline-block;
+      color: white;
+      background-color: $biru;
+      border-radius: 4em;
+      border: 0;
+      padding: 0.5em 2em;
+      text-decoration: none;
+      transition: 0.5s ease;
+      &:hover {
+        color: $biru;
+        border: 1px solid $biru;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+//custom kutipan
+.custom-kut {
+  margin-top: 12em;
+  text-align: center;
+  .kotak {
+    background: pink;
+    width: 50px;
+    height: 150px;
+    float: center;
+  }
+  .container {
+    p {
+      margin-top: -2.7em;
+      font-weight: 200;
+      font-size: 2em;
+      color: $biru;
+      margin-bottom: 1em;
+    }
+    h1 {
+      color: $biru;
+      font-weight: 900;
+      font-size: 2em;
+    }
+  }
+}
+
+//custom login
+.custom-login {
+  .row {
+    margin-top: 10em;
+  }
+}
+
+//custom footer
+.custom-footer {
+  margin-top: 5em;
+  .teks {
+    margin-top: -5em;
+  }
+}
